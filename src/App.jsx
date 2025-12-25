@@ -1,8 +1,7 @@
 import { Navigate, Route, Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Dashboard from "./pages/Dashboard";
+
 import AdGenerator from "./pages/AdGenerator";
-import Gallery from "./pages/Gallery";
 import { useEffect, useState } from "react";
 
 const App = () => {
